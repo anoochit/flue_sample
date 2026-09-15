@@ -4,7 +4,7 @@ import { local } from '@flue/runtime/node';
 import { weather } from '../tools/weather.ts';
 import { itPolicy } from '../skills/it-policy.ts';
 
-export function HelpfulAssistant() {
+export function Assistant() {
   useModel('google/gemini-2.5-flash');
   useSandbox(local());
   useMcpConnection({
