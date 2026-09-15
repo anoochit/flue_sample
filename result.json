@@ -1,0 +1,54 @@
+{
+    "v": 1,
+    "conversationId": "conv_01M2JJXVH96PJB4BW14P7NXZTV",
+    "offset": "0000000000000000_0000000000000020",
+    "messages": [
+        {
+            "id": "entry_direct_c3ViXzAxTTJKSlpENFA0NjhRVjlSVjM4Mk0yV1Ay",
+            "role": "user",
+            "purpose": "user",
+            "display": "visible",
+            "submissionId": "sub_01M2JJZD4P468QV9RV382M2WP2",
+            "parts": [
+                {
+                    "type": "text",
+                    "text": "Tell me a joke.",
+                    "state": "done"
+                }
+            ]
+        },
+        {
+            "id": "entry_01M2JJZFB7TZXD8YK0FJ617QVD",
+            "role": "assistant",
+            "purpose": "assistant",
+            "display": "visible",
+            "submissionId": "sub_01M2JJZD4P468QV9RV382M2WP2",
+            "turnId": "turn_01M2JJZD5AWXZ647RE800EWSFF",
+            "parts": [
+                {
+                    "type": "reasoning",
+                    "text": "**Crafting a Pun**\n\nOkay, I'm working on generating a joke, specifically a pun. I'm focusing on wordplay and aiming for something clever and amusing. The goal is to come up with a concise and impactful punchline. I'm exploring different humorous angles to maximize the joke's potential.\n\n\n",
+                    "state": "done"
+                },
+                {
+                    "type": "text",
+                    "text": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                    "state": "done"
+                }
+            ]
+        }
+    ],
+    "settlements": [
+        {
+            "submissionId": "sub_01M2JJXVGWGEZBMA8EQHBMTN03",
+            "outcome": "completed",
+            "answeredBySubmissionId": "sub_01M2JJXVGWGEZBMA8EQHBMTN03"
+        },
+        {
+            "submissionId": "sub_01M2JJZD4P468QV9RV382M2WP2",
+            "outcome": "completed",
+            "answeredBySubmissionId": "sub_01M2JJZD4P468QV9RV382M2WP2"
+        }
+    ],
+    "incarnation": "inc_01M2JJXVGX43Z6XXRRC8HFKPDN"
+}

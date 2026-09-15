@@ -3,14 +3,20 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
 		"check:types": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@flue/runtime": "^2.0.5"
+		"@flue/runtime": "^2.0.5",
+		"hono": "^4.13.8"
 	},
 	"devDependencies": {
 		"@flue/cli": "^2.0.5",
+		"@flue/vite": "^2.0.6",
 		"@types/node": "^22.10.10",
-		"typescript": "^7.0.2"
+		"typescript": "^7.0.2",
+		"vite": "^8.3.0"
 	}
 }
